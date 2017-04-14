@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CF78B6D1EA073D0002FF613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78B6C1EA073D0002FF613 /* AppDelegate.swift */; };
-		3CF78B6F1EA073D0002FF613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78B6E1EA073D0002FF613 /* ViewController.swift */; };
-		3CF78B721EA073D0002FF613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78B701EA073D0002FF613 /* Main.storyboard */; };
-		3CF78B741EA073D0002FF613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78B731EA073D0002FF613 /* Assets.xcassets */; };
-		3CF78B771EA073D0002FF613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78B751EA073D0002FF613 /* LaunchScreen.storyboard */; };
-		3CF78B821EA073D0002FF613 /* SingleSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78B811EA073D0002FF613 /* SingleSugarTests.swift */; };
-		3CF78B8D1EA073D0002FF613 /* SingleSugarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78B8C1EA073D0002FF613 /* SingleSugarUITests.swift */; };
-		3CF78B9B1EA07E27002FF613 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78B9A1EA07E27002FF613 /* MainViewController.swift */; };
+		3CF78BA91EA07F3F002FF613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */; };
+		3CF78BAB1EA07F3F002FF613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BAA1EA07F3F002FF613 /* ViewController.swift */; };
+		3CF78BAE1EA07F3F002FF613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BAC1EA07F3F002FF613 /* Main.storyboard */; };
+		3CF78BB01EA07F3F002FF613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BAF1EA07F3F002FF613 /* Assets.xcassets */; };
+		3CF78BB31EA07F3F002FF613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BB11EA07F3F002FF613 /* LaunchScreen.storyboard */; };
+		3CF78BBE1EA07F3F002FF613 /* SingleSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BBD1EA07F3F002FF613 /* SingleSugarTests.swift */; };
+		3CF78BC91EA07F3F002FF613 /* SingleSugarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BC81EA07F3F002FF613 /* SingleSugarUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3CF78B7E1EA073D0002FF613 /* PBXContainerItemProxy */ = {
+		3CF78BBA1EA07F3F002FF613 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3CF78B611EA073D0002FF613 /* Project object */;
+			containerPortal = 3CF78B9D1EA07F3F002FF613 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3CF78B681EA073D0002FF613;
+			remoteGlobalIDString = 3CF78BA41EA07F3F002FF613;
 			remoteInfo = SingleSugar;
 		};
-		3CF78B891EA073D0002FF613 /* PBXContainerItemProxy */ = {
+		3CF78BC51EA07F3F002FF613 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3CF78B611EA073D0002FF613 /* Project object */;
+			containerPortal = 3CF78B9D1EA07F3F002FF613 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3CF78B681EA073D0002FF613;
+			remoteGlobalIDString = 3CF78BA41EA07F3F002FF613;
 			remoteInfo = SingleSugar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CF78B691EA073D0002FF613 /* SingleSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CF78B6C1EA073D0002FF613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CF78B6E1EA073D0002FF613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3CF78B711EA073D0002FF613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3CF78B731EA073D0002FF613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3CF78B761EA073D0002FF613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3CF78B781EA073D0002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CF78B7D1EA073D0002FF613 /* SingleSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CF78B811EA073D0002FF613 /* SingleSugarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSugarTests.swift; sourceTree = "<group>"; };
-		3CF78B831EA073D0002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CF78B881EA073D0002FF613 /* SingleSugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleSugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CF78B8C1EA073D0002FF613 /* SingleSugarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSugarUITests.swift; sourceTree = "<group>"; };
-		3CF78B8E1EA073D0002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CF78B9A1EA07E27002FF613 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3CF78BA51EA07F3F002FF613 /* SingleSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CF78BAA1EA07F3F002FF613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CF78BAD1EA07F3F002FF613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF78BAF1EA07F3F002FF613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF78BB21EA07F3F002FF613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF78BB41EA07F3F002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF78BB91EA07F3F002FF613 /* SingleSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF78BBD1EA07F3F002FF613 /* SingleSugarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSugarTests.swift; sourceTree = "<group>"; };
+		3CF78BBF1EA07F3F002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF78BC41EA07F3F002FF613 /* SingleSugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleSugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF78BC81EA07F3F002FF613 /* SingleSugarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSugarUITests.swift; sourceTree = "<group>"; };
+		3CF78BCA1EA07F3F002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CF78B661EA073D0002FF613 /* Frameworks */ = {
+		3CF78BA21EA07F3F002FF613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF78B7A1EA073D0002FF613 /* Frameworks */ = {
+		3CF78BB61EA07F3F002FF613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF78B851EA073D0002FF613 /* Frameworks */ = {
+		3CF78BC11EA07F3F002FF613 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CF78B601EA073D0002FF613 = {
+		3CF78B9C1EA07F3F002FF613 = {
 			isa = PBXGroup;
 			children = (
-				3CF78B6B1EA073D0002FF613 /* SingleSugar */,
-				3CF78B801EA073D0002FF613 /* SingleSugarTests */,
-				3CF78B8B1EA073D0002FF613 /* SingleSugarUITests */,
-				3CF78B6A1EA073D0002FF613 /* Products */,
+				3CF78BA71EA07F3F002FF613 /* SingleSugar */,
+				3CF78BBC1EA07F3F002FF613 /* SingleSugarTests */,
+				3CF78BC71EA07F3F002FF613 /* SingleSugarUITests */,
+				3CF78BA61EA07F3F002FF613 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3CF78B6A1EA073D0002FF613 /* Products */ = {
+		3CF78BA61EA07F3F002FF613 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CF78B691EA073D0002FF613 /* SingleSugar.app */,
-				3CF78B7D1EA073D0002FF613 /* SingleSugarTests.xctest */,
-				3CF78B881EA073D0002FF613 /* SingleSugarUITests.xctest */,
+				3CF78BA51EA07F3F002FF613 /* SingleSugar.app */,
+				3CF78BB91EA07F3F002FF613 /* SingleSugarTests.xctest */,
+				3CF78BC41EA07F3F002FF613 /* SingleSugarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3CF78B6B1EA073D0002FF613 /* SingleSugar */ = {
+		3CF78BA71EA07F3F002FF613 /* SingleSugar */ = {
 			isa = PBXGroup;
 			children = (
-				3CF78B6C1EA073D0002FF613 /* AppDelegate.swift */,
-				3CF78B6E1EA073D0002FF613 /* ViewController.swift */,
-				3CF78B701EA073D0002FF613 /* Main.storyboard */,
-				3CF78B731EA073D0002FF613 /* Assets.xcassets */,
-				3CF78B751EA073D0002FF613 /* LaunchScreen.storyboard */,
-				3CF78B781EA073D0002FF613 /* Info.plist */,
-				3CF78B9A1EA07E27002FF613 /* MainViewController.swift */,
+				3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */,
+				3CF78BAA1EA07F3F002FF613 /* ViewController.swift */,
+				3CF78BAC1EA07F3F002FF613 /* Main.storyboard */,
+				3CF78BAF1EA07F3F002FF613 /* Assets.xcassets */,
+				3CF78BB11EA07F3F002FF613 /* LaunchScreen.storyboard */,
+				3CF78BB41EA07F3F002FF613 /* Info.plist */,
 			);
 			path = SingleSugar;
 			sourceTree = "<group>";
 		};
-		3CF78B801EA073D0002FF613 /* SingleSugarTests */ = {
+		3CF78BBC1EA07F3F002FF613 /* SingleSugarTests */ = {
 			isa = PBXGroup;
 			children = (
-				3CF78B811EA073D0002FF613 /* SingleSugarTests.swift */,
-				3CF78B831EA073D0002FF613 /* Info.plist */,
+				3CF78BBD1EA07F3F002FF613 /* SingleSugarTests.swift */,
+				3CF78BBF1EA07F3F002FF613 /* Info.plist */,
 			);
 			path = SingleSugarTests;
 			sourceTree = "<group>";
 		};
-		3CF78B8B1EA073D0002FF613 /* SingleSugarUITests */ = {
+		3CF78BC71EA07F3F002FF613 /* SingleSugarUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3CF78B8C1EA073D0002FF613 /* SingleSugarUITests.swift */,
-				3CF78B8E1EA073D0002FF613 /* Info.plist */,
+				3CF78BC81EA07F3F002FF613 /* SingleSugarUITests.swift */,
+				3CF78BCA1EA07F3F002FF613 /* Info.plist */,
 			);
 			path = SingleSugarUITests;
 			sourceTree = "<group>";
@@ -131,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3CF78B681EA073D0002FF613 /* SingleSugar */ = {
+		3CF78BA41EA07F3F002FF613 /* SingleSugar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CF78B911EA073D0002FF613 /* Build configuration list for PBXNativeTarget "SingleSugar" */;
+			buildConfigurationList = 3CF78BCD1EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugar" */;
 			buildPhases = (
-				3CF78B651EA073D0002FF613 /* Sources */,
-				3CF78B661EA073D0002FF613 /* Frameworks */,
-				3CF78B671EA073D0002FF613 /* Resources */,
+				3CF78BA11EA07F3F002FF613 /* Sources */,
+				3CF78BA21EA07F3F002FF613 /* Frameworks */,
+				3CF78BA31EA07F3F002FF613 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,73 +142,73 @@
 			);
 			name = SingleSugar;
 			productName = SingleSugar;
-			productReference = 3CF78B691EA073D0002FF613 /* SingleSugar.app */;
+			productReference = 3CF78BA51EA07F3F002FF613 /* SingleSugar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3CF78B7C1EA073D0002FF613 /* SingleSugarTests */ = {
+		3CF78BB81EA07F3F002FF613 /* SingleSugarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CF78B941EA073D0002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarTests" */;
+			buildConfigurationList = 3CF78BD01EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarTests" */;
 			buildPhases = (
-				3CF78B791EA073D0002FF613 /* Sources */,
-				3CF78B7A1EA073D0002FF613 /* Frameworks */,
-				3CF78B7B1EA073D0002FF613 /* Resources */,
+				3CF78BB51EA07F3F002FF613 /* Sources */,
+				3CF78BB61EA07F3F002FF613 /* Frameworks */,
+				3CF78BB71EA07F3F002FF613 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3CF78B7F1EA073D0002FF613 /* PBXTargetDependency */,
+				3CF78BBB1EA07F3F002FF613 /* PBXTargetDependency */,
 			);
 			name = SingleSugarTests;
 			productName = SingleSugarTests;
-			productReference = 3CF78B7D1EA073D0002FF613 /* SingleSugarTests.xctest */;
+			productReference = 3CF78BB91EA07F3F002FF613 /* SingleSugarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3CF78B871EA073D0002FF613 /* SingleSugarUITests */ = {
+		3CF78BC31EA07F3F002FF613 /* SingleSugarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CF78B971EA073D0002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarUITests" */;
+			buildConfigurationList = 3CF78BD31EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarUITests" */;
 			buildPhases = (
-				3CF78B841EA073D0002FF613 /* Sources */,
-				3CF78B851EA073D0002FF613 /* Frameworks */,
-				3CF78B861EA073D0002FF613 /* Resources */,
+				3CF78BC01EA07F3F002FF613 /* Sources */,
+				3CF78BC11EA07F3F002FF613 /* Frameworks */,
+				3CF78BC21EA07F3F002FF613 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3CF78B8A1EA073D0002FF613 /* PBXTargetDependency */,
+				3CF78BC61EA07F3F002FF613 /* PBXTargetDependency */,
 			);
 			name = SingleSugarUITests;
 			productName = SingleSugarUITests;
-			productReference = 3CF78B881EA073D0002FF613 /* SingleSugarUITests.xctest */;
+			productReference = 3CF78BC41EA07F3F002FF613 /* SingleSugarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3CF78B611EA073D0002FF613 /* Project object */ = {
+		3CF78B9D1EA07F3F002FF613 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = YangFan;
 				TargetAttributes = {
-					3CF78B681EA073D0002FF613 = {
+					3CF78BA41EA07F3F002FF613 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = FN5RQSTW98;
 						ProvisioningStyle = Automatic;
 					};
-					3CF78B7C1EA073D0002FF613 = {
+					3CF78BB81EA07F3F002FF613 = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 3CF78B681EA073D0002FF613;
+						TestTargetID = 3CF78BA41EA07F3F002FF613;
 					};
-					3CF78B871EA073D0002FF613 = {
+					3CF78BC31EA07F3F002FF613 = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 3CF78B681EA073D0002FF613;
+						TestTargetID = 3CF78BA41EA07F3F002FF613;
 					};
 				};
 			};
-			buildConfigurationList = 3CF78B641EA073D0002FF613 /* Build configuration list for PBXProject "SingleSugar" */;
+			buildConfigurationList = 3CF78BA01EA07F3F002FF613 /* Build configuration list for PBXProject "SingleSugar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,37 +216,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3CF78B601EA073D0002FF613;
-			productRefGroup = 3CF78B6A1EA073D0002FF613 /* Products */;
+			mainGroup = 3CF78B9C1EA07F3F002FF613;
+			productRefGroup = 3CF78BA61EA07F3F002FF613 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3CF78B681EA073D0002FF613 /* SingleSugar */,
-				3CF78B7C1EA073D0002FF613 /* SingleSugarTests */,
-				3CF78B871EA073D0002FF613 /* SingleSugarUITests */,
+				3CF78BA41EA07F3F002FF613 /* SingleSugar */,
+				3CF78BB81EA07F3F002FF613 /* SingleSugarTests */,
+				3CF78BC31EA07F3F002FF613 /* SingleSugarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3CF78B671EA073D0002FF613 /* Resources */ = {
+		3CF78BA31EA07F3F002FF613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF78B771EA073D0002FF613 /* LaunchScreen.storyboard in Resources */,
-				3CF78B741EA073D0002FF613 /* Assets.xcassets in Resources */,
-				3CF78B721EA073D0002FF613 /* Main.storyboard in Resources */,
+				3CF78BB31EA07F3F002FF613 /* LaunchScreen.storyboard in Resources */,
+				3CF78BB01EA07F3F002FF613 /* Assets.xcassets in Resources */,
+				3CF78BAE1EA07F3F002FF613 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF78B7B1EA073D0002FF613 /* Resources */ = {
+		3CF78BB71EA07F3F002FF613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF78B861EA073D0002FF613 /* Resources */ = {
+		3CF78BC21EA07F3F002FF613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,60 +256,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CF78B651EA073D0002FF613 /* Sources */ = {
+		3CF78BA11EA07F3F002FF613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF78B9B1EA07E27002FF613 /* MainViewController.swift in Sources */,
-				3CF78B6F1EA073D0002FF613 /* ViewController.swift in Sources */,
-				3CF78B6D1EA073D0002FF613 /* AppDelegate.swift in Sources */,
+				3CF78BAB1EA07F3F002FF613 /* ViewController.swift in Sources */,
+				3CF78BA91EA07F3F002FF613 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF78B791EA073D0002FF613 /* Sources */ = {
+		3CF78BB51EA07F3F002FF613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF78B821EA073D0002FF613 /* SingleSugarTests.swift in Sources */,
+				3CF78BBE1EA07F3F002FF613 /* SingleSugarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CF78B841EA073D0002FF613 /* Sources */ = {
+		3CF78BC01EA07F3F002FF613 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF78B8D1EA073D0002FF613 /* SingleSugarUITests.swift in Sources */,
+				3CF78BC91EA07F3F002FF613 /* SingleSugarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3CF78B7F1EA073D0002FF613 /* PBXTargetDependency */ = {
+		3CF78BBB1EA07F3F002FF613 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3CF78B681EA073D0002FF613 /* SingleSugar */;
-			targetProxy = 3CF78B7E1EA073D0002FF613 /* PBXContainerItemProxy */;
+			target = 3CF78BA41EA07F3F002FF613 /* SingleSugar */;
+			targetProxy = 3CF78BBA1EA07F3F002FF613 /* PBXContainerItemProxy */;
 		};
-		3CF78B8A1EA073D0002FF613 /* PBXTargetDependency */ = {
+		3CF78BC61EA07F3F002FF613 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3CF78B681EA073D0002FF613 /* SingleSugar */;
-			targetProxy = 3CF78B891EA073D0002FF613 /* PBXContainerItemProxy */;
+			target = 3CF78BA41EA07F3F002FF613 /* SingleSugar */;
+			targetProxy = 3CF78BC51EA07F3F002FF613 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3CF78B701EA073D0002FF613 /* Main.storyboard */ = {
+		3CF78BAC1EA07F3F002FF613 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3CF78B711EA073D0002FF613 /* Base */,
+				3CF78BAD1EA07F3F002FF613 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3CF78B751EA073D0002FF613 /* LaunchScreen.storyboard */ = {
+		3CF78BB11EA07F3F002FF613 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3CF78B761EA073D0002FF613 /* Base */,
+				3CF78BB21EA07F3F002FF613 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3CF78B8F1EA073D0002FF613 /* Debug */ = {
+		3CF78BCB1EA07F3F002FF613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		3CF78B901EA073D0002FF613 /* Release */ = {
+		3CF78BCC1EA07F3F002FF613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,13 +409,12 @@
 			};
 			name = Release;
 		};
-		3CF78B921EA073D0002FF613 /* Debug */ = {
+		3CF78BCE1EA07F3F002FF613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FN5RQSTW98;
 				INFOPLIST_FILE = SingleSugar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coderman.SingleSugar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,13 +422,12 @@
 			};
 			name = Debug;
 		};
-		3CF78B931EA073D0002FF613 /* Release */ = {
+		3CF78BCF1EA07F3F002FF613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FN5RQSTW98;
 				INFOPLIST_FILE = SingleSugar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coderman.SingleSugar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +435,7 @@
 			};
 			name = Release;
 		};
-		3CF78B951EA073D0002FF613 /* Debug */ = {
+		3CF78BD11EA07F3F002FF613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -455,7 +449,7 @@
 			};
 			name = Debug;
 		};
-		3CF78B961EA073D0002FF613 /* Release */ = {
+		3CF78BD21EA07F3F002FF613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -469,7 +463,7 @@
 			};
 			name = Release;
 		};
-		3CF78B981EA073D0002FF613 /* Debug */ = {
+		3CF78BD41EA07F3F002FF613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -482,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		3CF78B991EA073D0002FF613 /* Release */ = {
+		3CF78BD51EA07F3F002FF613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,43 +492,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CF78B641EA073D0002FF613 /* Build configuration list for PBXProject "SingleSugar" */ = {
+		3CF78BA01EA07F3F002FF613 /* Build configuration list for PBXProject "SingleSugar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CF78B8F1EA073D0002FF613 /* Debug */,
-				3CF78B901EA073D0002FF613 /* Release */,
+				3CF78BCB1EA07F3F002FF613 /* Debug */,
+				3CF78BCC1EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CF78B911EA073D0002FF613 /* Build configuration list for PBXNativeTarget "SingleSugar" */ = {
+		3CF78BCD1EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CF78B921EA073D0002FF613 /* Debug */,
-				3CF78B931EA073D0002FF613 /* Release */,
+				3CF78BCE1EA07F3F002FF613 /* Debug */,
+				3CF78BCF1EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		3CF78B941EA073D0002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarTests" */ = {
+		3CF78BD01EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CF78B951EA073D0002FF613 /* Debug */,
-				3CF78B961EA073D0002FF613 /* Release */,
+				3CF78BD11EA07F3F002FF613 /* Debug */,
+				3CF78BD21EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		3CF78B971EA073D0002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarUITests" */ = {
+		3CF78BD31EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CF78B981EA073D0002FF613 /* Debug */,
-				3CF78B991EA073D0002FF613 /* Release */,
+				3CF78BD41EA07F3F002FF613 /* Debug */,
+				3CF78BD51EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3CF78B611EA073D0002FF613 /* Project object */;
+	rootObject = 3CF78B9D1EA07F3F002FF613 /* Project object */;
 }
