@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22F47A72FF89B952C77F56A9 /* Pods_SingleSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CA31084C1CB613DDD6BA5 /* Pods_SingleSugar.framework */; };
+		3C011C6C1EA48D1D00313164 /* YFMonoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C011C6B1EA48D1D00313164 /* YFMonoTitleView.swift */; };
 		3CF78BA91EA07F3F002FF613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */; };
 		3CF78BAB1EA07F3F002FF613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BAA1EA07F3F002FF613 /* ViewController.swift */; };
 		3CF78BAE1EA07F3F002FF613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BAC1EA07F3F002FF613 /* Main.storyboard */; };
@@ -15,6 +16,17 @@
 		3CF78BB31EA07F3F002FF613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BB11EA07F3F002FF613 /* LaunchScreen.storyboard */; };
 		3CF78BBE1EA07F3F002FF613 /* SingleSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BBD1EA07F3F002FF613 /* SingleSugarTests.swift */; };
 		3CF78BC91EA07F3F002FF613 /* SingleSugarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BC81EA07F3F002FF613 /* SingleSugarUITests.swift */; };
+		3CF78BEF1EA09D3D002FF613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BEE1EA09D3D002FF613 /* Images.xcassets */; };
+		3CF78BF31EA0A0B7002FF613 /* YFConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BF21EA0A0B7002FF613 /* YFConst.swift */; };
+		3CF78BF51EA0A0DD002FF613 /* YFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BF41EA0A0DD002FF613 /* YFNavigationController.swift */; };
+		3CF78BF71EA0A0EC002FF613 /* YFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BF61EA0A0EC002FF613 /* YFTabBarController.swift */; };
+		3CF78BF91EA0A7D4002FF613 /* YFMonosacchrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BF81EA0A7D4002FF613 /* YFMonosacchrideViewController.swift */; };
+		3CF78BFB1EA0A7E5002FF613 /* YFSingleProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BFA1EA0A7E5002FF613 /* YFSingleProductViewController.swift */; };
+		3CF78BFD1EA0A7F9002FF613 /* YFClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BFC1EA0A7F9002FF613 /* YFClassificationViewController.swift */; };
+		3CF78BFF1EA0A804002FF613 /* YFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BFE1EA0A804002FF613 /* YFProfileViewController.swift */; };
+		3CF78C011EA0B950002FF613 /* YFHTTPRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78C001EA0B950002FF613 /* YFHTTPRequestTool.swift */; };
+		3CF78C091EA45E79002FF613 /* YFMonosacchrideItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78C081EA45E79002FF613 /* YFMonosacchrideItem.swift */; };
+		3CF78C0C1EA48C65002FF613 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78C0B1EA48C65002FF613 /* Size.swift */; };
 		6A721D93ABDCC81776EC21E5 /* Pods_SingleSugarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03774DBA1838DD9015F46172 /* Pods_SingleSugarTests.framework */; };
 		A22AFFFD75C0D7E095EDD89E /* Pods_SingleSugarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517E4B9B1AAC27CEA4EC7E47 /* Pods_SingleSugarUITests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +53,7 @@
 		146CA31084C1CB613DDD6BA5 /* Pods_SingleSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingleSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2013178718D74C9B7F5E30AA /* Pods-SingleSugarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleSugarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleSugarTests/Pods-SingleSugarTests.release.xcconfig"; sourceTree = "<group>"; };
 		3934E7FB7767CA0156646BD6 /* Pods-SingleSugar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleSugar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleSugar/Pods-SingleSugar.release.xcconfig"; sourceTree = "<group>"; };
+		3C011C6B1EA48D1D00313164 /* YFMonoTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFMonoTitleView.swift; sourceTree = "<group>"; };
 		3CF78BA51EA07F3F002FF613 /* SingleSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF78BAA1EA07F3F002FF613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +67,17 @@
 		3CF78BC41EA07F3F002FF613 /* SingleSugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleSugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF78BC81EA07F3F002FF613 /* SingleSugarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSugarUITests.swift; sourceTree = "<group>"; };
 		3CF78BCA1EA07F3F002FF613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF78BEE1EA09D3D002FF613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CF78BF21EA0A0B7002FF613 /* YFConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFConst.swift; sourceTree = "<group>"; };
+		3CF78BF41EA0A0DD002FF613 /* YFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFNavigationController.swift; sourceTree = "<group>"; };
+		3CF78BF61EA0A0EC002FF613 /* YFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFTabBarController.swift; sourceTree = "<group>"; };
+		3CF78BF81EA0A7D4002FF613 /* YFMonosacchrideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFMonosacchrideViewController.swift; sourceTree = "<group>"; };
+		3CF78BFA1EA0A7E5002FF613 /* YFSingleProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFSingleProductViewController.swift; sourceTree = "<group>"; };
+		3CF78BFC1EA0A7F9002FF613 /* YFClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFClassificationViewController.swift; sourceTree = "<group>"; };
+		3CF78BFE1EA0A804002FF613 /* YFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFProfileViewController.swift; sourceTree = "<group>"; };
+		3CF78C001EA0B950002FF613 /* YFHTTPRequestTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFHTTPRequestTool.swift; sourceTree = "<group>"; };
+		3CF78C081EA45E79002FF613 /* YFMonosacchrideItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFMonosacchrideItem.swift; sourceTree = "<group>"; };
+		3CF78C0B1EA48C65002FF613 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		4546ABA970EC808B997D5BAB /* Pods-SingleSugarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleSugarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleSugarUITests/Pods-SingleSugarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		517E4B9B1AAC27CEA4EC7E47 /* Pods_SingleSugarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingleSugarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60209E49F62F2C6E054B8AF0 /* Pods-SingleSugar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleSugar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingleSugar/Pods-SingleSugar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,12 +148,14 @@
 		3CF78BA71EA07F3F002FF613 /* SingleSugar */ = {
 			isa = PBXGroup;
 			children = (
+				3CF78BD61EA091BB002FF613 /* Classes */,
 				3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */,
 				3CF78BAA1EA07F3F002FF613 /* ViewController.swift */,
 				3CF78BAC1EA07F3F002FF613 /* Main.storyboard */,
 				3CF78BAF1EA07F3F002FF613 /* Assets.xcassets */,
 				3CF78BB11EA07F3F002FF613 /* LaunchScreen.storyboard */,
 				3CF78BB41EA07F3F002FF613 /* Info.plist */,
+				3CF78BEE1EA09D3D002FF613 /* Images.xcassets */,
 			);
 			path = SingleSugar;
 			sourceTree = "<group>";
@@ -150,6 +176,184 @@
 				3CF78BCA1EA07F3F002FF613 /* Info.plist */,
 			);
 			path = SingleSugarUITests;
+			sourceTree = "<group>";
+		};
+		3CF78BD61EA091BB002FF613 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BDB1EA091BB002FF613 /* Mian(主要) */,
+				3CF78BDC1EA091BB002FF613 /* Monosaccharide(单糖) */,
+				3CF78BE81EA091BB002FF613 /* SingleProduct(单品) */,
+				3CF78BD71EA091BB002FF613 /* Classification(分类) */,
+				3CF78BE41EA091BB002FF613 /* Profile(我的) */,
+				3CF78BE01EA091BB002FF613 /* Other(其他) */,
+				3CF78BF11EA09FEC002FF613 /* Tool(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3CF78BD71EA091BB002FF613 /* Classification(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BD81EA091BB002FF613 /* Controller */,
+				3CF78BD91EA091BB002FF613 /* Model */,
+				3CF78BDA1EA091BB002FF613 /* View */,
+			);
+			path = "Classification(分类)";
+			sourceTree = "<group>";
+		};
+		3CF78BD81EA091BB002FF613 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BFC1EA0A7F9002FF613 /* YFClassificationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CF78BD91EA091BB002FF613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF78BDA1EA091BB002FF613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF78BDB1EA091BB002FF613 /* Mian(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BF41EA0A0DD002FF613 /* YFNavigationController.swift */,
+				3CF78BF61EA0A0EC002FF613 /* YFTabBarController.swift */,
+			);
+			path = "Mian(主要)";
+			sourceTree = "<group>";
+		};
+		3CF78BDC1EA091BB002FF613 /* Monosaccharide(单糖) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BDD1EA091BB002FF613 /* Controller */,
+				3CF78BDE1EA091BB002FF613 /* Model */,
+				3CF78BDF1EA091BB002FF613 /* View */,
+			);
+			path = "Monosaccharide(单糖)";
+			sourceTree = "<group>";
+		};
+		3CF78BDD1EA091BB002FF613 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BF81EA0A7D4002FF613 /* YFMonosacchrideViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CF78BDE1EA091BB002FF613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78C081EA45E79002FF613 /* YFMonosacchrideItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF78BDF1EA091BB002FF613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C011C6B1EA48D1D00313164 /* YFMonoTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF78BE01EA091BB002FF613 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78C0A1EA48C65002FF613 /* Category */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		3CF78BE41EA091BB002FF613 /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BE51EA091BB002FF613 /* Controller */,
+				3CF78BE61EA091BB002FF613 /* Model */,
+				3CF78BE71EA091BB002FF613 /* View */,
+			);
+			path = "Profile(我的)";
+			sourceTree = "<group>";
+		};
+		3CF78BE51EA091BB002FF613 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BFE1EA0A804002FF613 /* YFProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CF78BE61EA091BB002FF613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF78BE71EA091BB002FF613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF78BE81EA091BB002FF613 /* SingleProduct(单品) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BE91EA091BB002FF613 /* Controller */,
+				3CF78BEA1EA091BB002FF613 /* Model */,
+				3CF78BEB1EA091BB002FF613 /* View */,
+			);
+			path = "SingleProduct(单品)";
+			sourceTree = "<group>";
+		};
+		3CF78BE91EA091BB002FF613 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BFA1EA0A7E5002FF613 /* YFSingleProductViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CF78BEA1EA091BB002FF613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF78BEB1EA091BB002FF613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF78BF11EA09FEC002FF613 /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78BF21EA0A0B7002FF613 /* YFConst.swift */,
+				3CF78C001EA0B950002FF613 /* YFHTTPRequestTool.swift */,
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		3CF78C0A1EA48C65002FF613 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3CF78C0B1EA48C65002FF613 /* Size.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		6A37C786E9F2B5D7F283C351 /* Pods */ = {
@@ -236,6 +440,7 @@
 		3CF78B9D1EA07F3F002FF613 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = YangFan;
@@ -283,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF78BB31EA07F3F002FF613 /* LaunchScreen.storyboard in Resources */,
+				3CF78BEF1EA09D3D002FF613 /* Images.xcassets in Resources */,
 				3CF78BB01EA07F3F002FF613 /* Assets.xcassets in Resources */,
 				3CF78BAE1EA07F3F002FF613 /* Main.storyboard in Resources */,
 			);
@@ -447,8 +653,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C011C6C1EA48D1D00313164 /* YFMonoTitleView.swift in Sources */,
+				3CF78C091EA45E79002FF613 /* YFMonosacchrideItem.swift in Sources */,
+				3CF78BFB1EA0A7E5002FF613 /* YFSingleProductViewController.swift in Sources */,
+				3CF78BFD1EA0A7F9002FF613 /* YFClassificationViewController.swift in Sources */,
 				3CF78BAB1EA07F3F002FF613 /* ViewController.swift in Sources */,
+				3CF78C0C1EA48C65002FF613 /* Size.swift in Sources */,
+				3CF78BF91EA0A7D4002FF613 /* YFMonosacchrideViewController.swift in Sources */,
+				3CF78C011EA0B950002FF613 /* YFHTTPRequestTool.swift in Sources */,
+				3CF78BFF1EA0A804002FF613 /* YFProfileViewController.swift in Sources */,
 				3CF78BA91EA07F3F002FF613 /* AppDelegate.swift in Sources */,
+				3CF78BF71EA0A0EC002FF613 /* YFTabBarController.swift in Sources */,
+				3CF78BF51EA0A0DD002FF613 /* YFNavigationController.swift in Sources */,
+				3CF78BF31EA0A0B7002FF613 /* YFConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,8 +818,10 @@
 			baseConfigurationReference = 60209E49F62F2C6E054B8AF0 /* Pods-SingleSugar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FN5RQSTW98;
 				INFOPLIST_FILE = SingleSugar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coderman.SingleSugar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,8 +834,10 @@
 			baseConfigurationReference = 3934E7FB7767CA0156646BD6 /* Pods-SingleSugar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FN5RQSTW98;
 				INFOPLIST_FILE = SingleSugar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coderman.SingleSugar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -701,6 +922,7 @@
 				3CF78BCF1EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF78BD01EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarTests" */ = {
 			isa = XCConfigurationList;
@@ -709,6 +931,7 @@
 				3CF78BD21EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF78BD31EA07F3F002FF613 /* Build configuration list for PBXNativeTarget "SingleSugarUITests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +940,7 @@
 				3CF78BD51EA07F3F002FF613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window?.rootViewController = YFTabBarController()
+        
+        //设置导航栏和标签栏初始化值
+        UINavigationBar.appearance().tintColor = kMainColor
+        UINavigationBar.appearance().barTintColor = kMainColor
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        UITabBar.appearance().tintColor = kMainColor
+        
         return true
     }
 
