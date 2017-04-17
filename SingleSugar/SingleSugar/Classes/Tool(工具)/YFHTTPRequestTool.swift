@@ -70,11 +70,32 @@ class YFHTTPRequestTool {
         }
     }
     
-    func monosacchrideTitleData(_ finished: @escaping() -> ()) {
-        
+    
+    /// 获取单糖标题数据
+    ///
+    /// - Parameter finished: 完成回调
+    func monosacchrideTitleData(_ finished: @escaping(_ titleItems: [YFMonoTitleItem]) -> ()) {
+        let url = baseURL + "v2/channels/preset"
+        let param = ["gender": 1,
+                     "generation": 1]
+        baseRequest(url, param: param) { (response) in
+            let dict = JSON(response)
+            let code = dict["code"].intValue
+            let message = dict["message"].stringValue
+            guard code == kSuccessCode else {
+                SVProgressHUD.showInfo(withStatus: message)
+                return
+            }
+            let data = dict["data"].dictionary
+            if let titles = data?["channels"]?.arrayObject {
+                var titleItems = [YFMonoTitleItem]()
+                for item in titles {
+                    titleItems.append(YFMonoTitleItem(dict: item as! [String : Any]))
+                }
+                finished(titleItems)
+            }
+        }
     }
-    
-    
 }
 
 

@@ -55,9 +55,13 @@ extension YFMonoTitleView {
         //1.算出每个按钮宽度
         //2.初始化按钮
         //3.设置按钮属性
-        let buttonW = yfWidth / CGFloat(titleItems.count + 1)
+        let buttonW = yfWidth / kTitleCount
         var i = 0
         for title in titleItems {
+            //只能显示6个按钮
+            if i >= Int(kTitleCount - 1) {
+                break
+            }
             let button = UIButton(type: .custom)
             button.setTitle(title, for: .normal)
             button.frame = CGRect(x: buttonW * CGFloat(i), y: 0, width: buttonW, height: yfHeight)
@@ -65,11 +69,23 @@ extension YFMonoTitleView {
             button.setTitleColor(UIColor(hue:0.00, saturation:0.00, brightness:0.37, alpha:1.00), for: .normal)
             button.setTitleColor(UIColor(red: 245/255.0, green: 80/255.0, blue: 83/255.0, alpha: 1), for: .selected)
             button.titleLabel?.font = UIFont.systemFont(ofSize: 14)
-            button.addTarget(self, action: #selector(YFMonoTitleView.selectedAction), for: .touchUpInside)
+            button.addTarget(self, action: #selector(YFMonoTitleView.selectedAction(_:)), for: .touchUpInside)
             addSubview(button)
             i += 1
         }
-    
+        
+        //添加最后一个展开按钮
+        let button = UIButton(type: .custom)
+        button.setImage(UIImage(named: "arrow_index_down_8x4_"), for: .normal)
+        button.frame = CGRect(x: (kTitleCount - 1) * buttonW, y: 0, width: buttonW, height: yfHeight)
+        button.addTarget(self, action: #selector(YFMonoTitleView.arrowButtonAction(_:)), for: .touchUpInside)
+        addSubview(button)
+        
+        //添加分割线
+        let sepeaterView = UIView(frame: CGRect(x: 0, y: yfHeight - 0.3, width: yfWidth, height: 0.3))
+        sepeaterView.backgroundColor = UIColor(hue:0.00, saturation:0.00, brightness:0.75, alpha:1.00)
+        addSubview(sepeaterView)
+
         
     }
     //初始化下划线
@@ -98,6 +114,12 @@ extension YFMonoTitleView {
         }
         //回调给控制器
         delegate?.selectedTitle(button.tag - 300)
+    }
+    
+    @objc fileprivate func arrowButtonAction(_ button: UIButton) {
+        UIView.animate(withDuration: 0.2) { 
+            button.imageView?.transform = (button.imageView?.transform.rotated(by: CGFloat.pi))!
+        }
     }
 }
 

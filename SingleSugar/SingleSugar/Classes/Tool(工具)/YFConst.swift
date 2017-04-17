@@ -31,4 +31,7 @@ let baseURL = "http://api.dantangapp.com/"
 ///成功编码
 let kSuccessCode = 200
 
+///标题栏标题个数
+let kTitleCount: CGFloat = 7
+
 
