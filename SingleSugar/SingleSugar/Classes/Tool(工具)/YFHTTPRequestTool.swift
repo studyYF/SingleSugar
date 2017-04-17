@@ -43,7 +43,7 @@ class YFHTTPRequestTool {
     /// - Parameters:
     ///   - id: 标题栏id
     ///   - finished: 成功返回
-    func momosacchrideData(id: Int, finished: @escaping ([YFMonosacchrideItem]) -> ()) {
+    func momosacchrideData(id: Int, finished: @escaping (_ monoItems: [YFMonosacchrideItem]) -> ()) {
         let url = baseURL + "v1/channels/\(id)/items"
         let param = ["gender": 1,
                      "generation": 1,
@@ -70,6 +70,9 @@ class YFHTTPRequestTool {
         }
     }
     
+    func monosacchrideTitleData(_ finished: @escaping() -> ()) {
+        
+    }
     
     
 }

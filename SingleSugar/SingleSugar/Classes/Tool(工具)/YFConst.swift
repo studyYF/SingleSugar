@@ -17,10 +17,10 @@ let kWidth = UIScreen.main.bounds.size.width
 let kHeight = UIScreen.main.bounds.size.height
 
 /// 导航栏高
-let kNavigationH = 64
+let kNavigationH: CGFloat = 64
 
 /// tabBar高
-let kTabBarH = 49
+let kTabBarH: CGFloat = 49
 
 /// 导航栏颜色
 let kMainColor = UIColor(hue:0.00, saturation:0.53, brightness:0.88, alpha:1.00)
