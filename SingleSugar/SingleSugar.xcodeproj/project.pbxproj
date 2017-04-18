@@ -10,6 +10,9 @@
 		22F47A72FF89B952C77F56A9 /* Pods_SingleSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CA31084C1CB613DDD6BA5 /* Pods_SingleSugar.framework */; };
 		3C011C6C1EA48D1D00313164 /* YFMonoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C011C6B1EA48D1D00313164 /* YFMonoTitleView.swift */; };
 		3C011C6E1EA4A2A400313164 /* YFMonoTitleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C011C6D1EA4A2A400313164 /* YFMonoTitleItem.swift */; };
+		3C011C711EA4AEBD00313164 /* YFMonoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C011C6F1EA4AEBD00313164 /* YFMonoTableViewCell.swift */; };
+		3C011C721EA4AEBD00313164 /* YFMonoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C011C701EA4AEBD00313164 /* YFMonoTableViewCell.xib */; };
+		3C011C741EA5A1DE00313164 /* YFCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C011C731EA5A1DE00313164 /* YFCategoryViewController.swift */; };
 		3CF78BA91EA07F3F002FF613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */; };
 		3CF78BAB1EA07F3F002FF613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF78BAA1EA07F3F002FF613 /* ViewController.swift */; };
 		3CF78BAE1EA07F3F002FF613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF78BAC1EA07F3F002FF613 /* Main.storyboard */; };
@@ -56,6 +59,9 @@
 		3934E7FB7767CA0156646BD6 /* Pods-SingleSugar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleSugar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleSugar/Pods-SingleSugar.release.xcconfig"; sourceTree = "<group>"; };
 		3C011C6B1EA48D1D00313164 /* YFMonoTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFMonoTitleView.swift; sourceTree = "<group>"; };
 		3C011C6D1EA4A2A400313164 /* YFMonoTitleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFMonoTitleItem.swift; sourceTree = "<group>"; };
+		3C011C6F1EA4AEBD00313164 /* YFMonoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFMonoTableViewCell.swift; sourceTree = "<group>"; };
+		3C011C701EA4AEBD00313164 /* YFMonoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFMonoTableViewCell.xib; sourceTree = "<group>"; };
+		3C011C731EA5A1DE00313164 /* YFCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFCategoryViewController.swift; sourceTree = "<group>"; };
 		3CF78BA51EA07F3F002FF613 /* SingleSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF78BA81EA07F3F002FF613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF78BAA1EA07F3F002FF613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -249,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF78BF81EA0A7D4002FF613 /* YFMonosacchrideViewController.swift */,
+				3C011C731EA5A1DE00313164 /* YFCategoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -266,6 +273,8 @@
 			isa = PBXGroup;
 			children = (
 				3C011C6B1EA48D1D00313164 /* YFMonoTitleView.swift */,
+				3C011C6F1EA4AEBD00313164 /* YFMonoTableViewCell.swift */,
+				3C011C701EA4AEBD00313164 /* YFMonoTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -490,6 +499,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C011C721EA4AEBD00313164 /* YFMonoTableViewCell.xib in Resources */,
 				3CF78BB31EA07F3F002FF613 /* LaunchScreen.storyboard in Resources */,
 				3CF78BEF1EA09D3D002FF613 /* Images.xcassets in Resources */,
 				3CF78BB01EA07F3F002FF613 /* Assets.xcassets in Resources */,
@@ -661,12 +671,14 @@
 				3CF78BFB1EA0A7E5002FF613 /* YFSingleProductViewController.swift in Sources */,
 				3CF78BFD1EA0A7F9002FF613 /* YFClassificationViewController.swift in Sources */,
 				3CF78BAB1EA07F3F002FF613 /* ViewController.swift in Sources */,
+				3C011C741EA5A1DE00313164 /* YFCategoryViewController.swift in Sources */,
 				3CF78C0C1EA48C65002FF613 /* Size.swift in Sources */,
 				3CF78BF91EA0A7D4002FF613 /* YFMonosacchrideViewController.swift in Sources */,
 				3CF78C011EA0B950002FF613 /* YFHTTPRequestTool.swift in Sources */,
 				3CF78BFF1EA0A804002FF613 /* YFProfileViewController.swift in Sources */,
 				3C011C6E1EA4A2A400313164 /* YFMonoTitleItem.swift in Sources */,
 				3CF78BA91EA07F3F002FF613 /* AppDelegate.swift in Sources */,
+				3C011C711EA4AEBD00313164 /* YFMonoTableViewCell.swift in Sources */,
 				3CF78BF71EA0A0EC002FF613 /* YFTabBarController.swift in Sources */,
 				3CF78BF51EA0A0DD002FF613 /* YFNavigationController.swift in Sources */,
 				3CF78BF31EA0A0B7002FF613 /* YFConst.swift in Sources */,

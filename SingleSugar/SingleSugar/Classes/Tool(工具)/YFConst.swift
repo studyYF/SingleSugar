@@ -22,6 +22,9 @@ let kNavigationH: CGFloat = 64
 /// tabBar高
 let kTabBarH: CGFloat = 49
 
+///单糖标题栏高度
+let kTitleViewH: CGFloat = 35
+
 /// 导航栏颜色
 let kMainColor = UIColor(hue:0.00, saturation:0.53, brightness:0.88, alpha:1.00)
 
