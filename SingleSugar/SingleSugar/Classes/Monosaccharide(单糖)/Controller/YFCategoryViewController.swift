@@ -49,9 +49,9 @@ extension YFCategoryViewController {
 //MARK: 加载数据
 extension YFCategoryViewController {
     fileprivate func loadData() {
-        YFHTTPRequestTool.shareNetTool.momosacchrideData(id: id!) { (items) in
-            self.items = items
-            self.tableView.reloadData()
+        YFHTTPRequestTool.shareNetTool.momosacchrideData(id: id!) { [weak self] (items) in
+            self!.items = items
+            self!.tableView.reloadData()
         }
     }
 }

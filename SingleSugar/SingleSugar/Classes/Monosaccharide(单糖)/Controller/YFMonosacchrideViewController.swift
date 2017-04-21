@@ -46,7 +46,7 @@ extension YFMonosacchrideViewController {
         scrollView.delegate = self
         view.addSubview(scrollView)
         //2.设置搜索框
-        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "Feed_SearchBtn_18x18_"), style: .plain, target: self, action: #selector(YFMonosacchrideViewController.search))
     }
     
     //设置标题view
@@ -82,14 +82,23 @@ extension YFMonosacchrideViewController {
     }
 }
 
+
+//MARK: 搜索
+extension YFMonosacchrideViewController {
+    @objc fileprivate func search() {
+        let searchVC = YFSearchViewController()
+        navigationController?.pushViewController(searchVC, animated: true)
+    }
+}
+
 //MARK: 获取网络数据
 extension YFMonosacchrideViewController {
     func loadData() {
         //获取标题数据
-        YFHTTPRequestTool.shareNetTool.monosacchrideTitleData { (items) in
-            self.titleItems = items
-            self.setTitleView()
-            self.setController()
+        YFHTTPRequestTool.shareNetTool.monosacchrideTitleData { [weak self] (items) in
+            self!.titleItems = items
+            self!.setTitleView()
+            self!.setController()
         }
     }
 }

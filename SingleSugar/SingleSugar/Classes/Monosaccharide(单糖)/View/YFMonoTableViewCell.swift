@@ -24,7 +24,7 @@ class YFMonoTableViewCell: UITableViewCell {
     ///模型
     var item: YFMonosacchrideItem? {
         didSet {
-            contentImageView.kf.setImage(with: URL(string:(item?.cover_image_url)!), placeholder: nil)
+            contentImageView.kf.setImage(with: URL(string:(item?.cover_image_url)!), placeholder:UIImage(named: "PlaceHolderImage_small_31x26_"))
             titleLabel.text = item?.title
             faviButton.setTitle("\((item?.likes_count!)!)", for: .normal)
         }

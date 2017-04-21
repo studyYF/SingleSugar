@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = YFTabBarController()
         
         //设置导航栏和标签栏初始化值
-        UINavigationBar.appearance().tintColor = kMainColor
+        UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().barTintColor = kMainColor
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         UITabBar.appearance().tintColor = kMainColor
