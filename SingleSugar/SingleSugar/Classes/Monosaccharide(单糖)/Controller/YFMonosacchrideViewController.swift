@@ -74,7 +74,6 @@ extension YFMonosacchrideViewController {
         for vc in vcArray {
             vc.view.frame = CGRect(x: i * kWidth, y: 0, width: kWidth, height: scrollView.yfHeight)
             scrollView.addSubview(vc.view)
-            print(i,vc.view.frame)
             i += 1
         }
         //设置scrollView的contentOffset

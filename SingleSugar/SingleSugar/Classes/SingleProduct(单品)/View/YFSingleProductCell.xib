@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YFSingleProductCell" customModule="SingleSugar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="172" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7kT-jt-uRE">
+                        <rect key="frame" x="0.0" y="0.0" width="172" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="7kT-jt-uRE" secondAttribute="height" multiplier="43:35" id="dB4-uc-aof"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSi-KT-Ihm">
+                        <rect key="frame" x="5" y="145" width="162" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJT-JL-C7Z">
+                        <rect key="frame" x="10" y="198" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.96078431369999995" green="0.31372549020000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0L-Bx-j94">
+                        <rect key="frame" x="125" y="199" width="37" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="334" image="Search_GiftBtn_Default_12x10_">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RSi-KT-Ihm" secondAttribute="trailing" constant="5" id="0n1-7z-IUb"/>
+                <constraint firstItem="7kT-jt-uRE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BsY-of-9FW"/>
+                <constraint firstItem="RSi-KT-Ihm" firstAttribute="top" secondItem="7kT-jt-uRE" secondAttribute="bottom" constant="5" id="LiC-jg-PHq"/>
+                <constraint firstAttribute="bottom" secondItem="u0L-Bx-j94" secondAttribute="bottom" constant="5" id="MDw-XI-gw8"/>
+                <constraint firstAttribute="trailing" secondItem="u0L-Bx-j94" secondAttribute="trailing" constant="10" id="X9q-T1-jvK"/>
+                <constraint firstItem="RSi-KT-Ihm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="a0b-LK-5wP"/>
+                <constraint firstAttribute="bottom" secondItem="OJT-JL-C7Z" secondAttribute="bottom" constant="5" id="aCN-3T-sbc"/>
+                <constraint firstItem="7kT-jt-uRE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gXI-VU-Gdn"/>
+                <constraint firstItem="OJT-JL-C7Z" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="htu-Dq-ayO"/>
+                <constraint firstAttribute="trailing" secondItem="7kT-jt-uRE" secondAttribute="trailing" id="nM6-kQ-l46"/>
+            </constraints>
+            <size key="customSize" width="158" height="219"/>
+            <connections>
+                <outlet property="contentImageView" destination="7kT-jt-uRE" id="aRd-if-ojx"/>
+                <outlet property="likeCountButton" destination="u0L-Bx-j94" id="Gfy-Bw-rTq"/>
+                <outlet property="priceLabel" destination="OJT-JL-C7Z" id="uhL-QM-8dY"/>
+                <outlet property="titleLabel" destination="RSi-KT-Ihm" id="cHi-zr-Dmn"/>
+            </connections>
+            <point key="canvasLocation" x="-6" y="55.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Search_GiftBtn_Default_12x10_" width="12" height="10"/>
+    </resources>
+</document>

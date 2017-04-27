@@ -24,7 +24,7 @@ class YFHTTPRequestTool {
     ///   - url: 网址
     ///   - param: 参数
     ///   - finished: 成功返回
-    func baseRequest(_ url: String, param: [String:Any], finished: @escaping(Any) -> ()) {
+    func baseRequest(_ url: String, param: [String:Any]? = nil, finished: @escaping(Any) -> ()) {
         Alamofire.request(url, parameters: param).responseJSON { (response) in
             //判断是否请求成功
             guard response.result.isSuccess else {
@@ -95,6 +95,93 @@ class YFHTTPRequestTool {
                 finished(titleItems)
             }
         }
+    }
+    
+    /// 请求单品数据
+    ///
+    /// - Parameter finished: 数据回调
+    func singleProductItem(finished: @escaping([YFSinglePItem]) -> ()) {
+        let url = baseURL + "v2/items"
+        let param = ["gender" : 1,
+            "generation" : 1,
+            "limit" : 20,
+            "offset" : 0
+        ]
+        baseRequest(url, param: param) { (response) in
+            let dict = JSON(response)
+            let code = dict["code"].intValue
+            let message = dict["message"].stringValue
+            guard code == kSuccessCode else {
+                SVProgressHUD.showInfo(withStatus: message)
+                return
+            }
+            let data = dict["data"].dictionary
+            if let items = data?["items"]?.arrayObject {
+                var products = [YFSinglePItem]()
+                for item in items {
+                    let itemDict = item as! [String : Any]
+                    if let itemData = itemDict["data"] {
+                        products.append(YFSinglePItem(dict: itemData as! [String : Any]))
+                    }
+                }
+                finished(products)
+            }
+        }
+    }
+    
+    /// 获取单品详情数据
+    ///
+    /// - Parameters:
+    ///   - id: 商品id
+    ///   - finished: 返回数组
+    func singleProductDetail(id: Int, finished: @escaping(YFSingleProductDetailItem) -> ()) {
+        let url = baseURL + "v2/items/\(id)"
+        baseRequest(url) { (response) in
+            let data = JSON(response)
+            let message = data["message"].stringValue
+            let code = data["code"].intValue
+            guard code == kSuccessCode else {
+                SVProgressHUD.showInfo(withStatus: message)
+                return
+            }
+            if let items = data["data"].dictionaryObject {
+                let item = YFSingleProductDetailItem(dict: items as [String : AnyObject])
+                finished(item)
+            }
+        }
+    }
+    
+    /// 请求评论数据
+    ///
+    /// - Parameters:
+    ///   - id: 商品id
+    ///   - finished:
+    func loadComment(id: Int, finished: @escaping([YFCommentItem]) -> ()) {
+        let url = baseURL + "v2/items/\(id)/comments"
+        let params = ["limit": 20,
+                      "offset": 0]
+        baseRequest(url, param: params) { (response) in
+            let dict = JSON(response)
+            let message = dict["message"].stringValue
+            let code = dict["code"].intValue
+            guard code == kSuccessCode else {
+                SVProgressHUD.showInfo(withStatus: message)
+                return
+            }
+            if let data = dict["data"].dictionary {
+                if let commentData = data["comments"]?.arrayObject {
+                    var commentItems = [YFCommentItem]()
+                    for item in commentData {
+                        commentItems.append(YFCommentItem(dict: item as! [String : AnyObject]))
+                    }
+                    finished(commentItems)
+                }
+            }
+        }
+    }
+    
+    func classifyData() {
+        
     }
 }
 

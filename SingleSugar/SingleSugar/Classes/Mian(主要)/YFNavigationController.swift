@@ -20,7 +20,7 @@ class YFNavigationController: UINavigationController {
     
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if viewControllers.count > 0 {
-            hidesBottomBarWhenPushed = true
+            viewController.hidesBottomBarWhenPushed = true
 //            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "checkUserType_backward_9x15_"), style: .plain, target: self, action: #selector(YFNavigationController.back))
         }
         super.pushViewController(viewController, animated: animated)

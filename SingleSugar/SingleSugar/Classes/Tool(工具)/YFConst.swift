@@ -26,7 +26,7 @@ let kTabBarH: CGFloat = 49
 let kTitleViewH: CGFloat = 35
 
 /// 导航栏颜色
-let kMainColor = UIColor(hue:0.00, saturation:0.53, brightness:0.88, alpha:1.00)
+let kMainColor = UIColor(hue:0.01, saturation:0.60, brightness:0.86, alpha:1.00)
 
 ///基础地址
 let baseURL = "http://api.dantangapp.com/"

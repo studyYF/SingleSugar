@@ -37,6 +37,7 @@ class YFCategoryViewController: ViewController {
     }
 }
 
+
 extension YFCategoryViewController {
     fileprivate func setUI() {
         tableView.delegate = self
@@ -67,5 +68,12 @@ extension YFCategoryViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellName, for: indexPath) as! YFMonoTableViewCell
         cell.item = items[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let item = items[indexPath.row]
+        let vc = YFMonoDetailViewController()
+        vc.item = item
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
