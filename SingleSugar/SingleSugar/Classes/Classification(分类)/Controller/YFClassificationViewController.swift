@@ -13,6 +13,15 @@ class YFClassificationViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
+        loadData()
     }
     
+}
+
+extension YFClassificationViewController {
+    fileprivate func loadData() {
+        YFHTTPRequestTool.shareNetTool.classifyData(6) { (items) in
+            
+        }
+    }
 }

@@ -180,8 +180,20 @@ class YFHTTPRequestTool {
         }
     }
     
-    func classifyData() {
-        
+    func classifyData(_ limit: Int, finished: @escaping([YFClassifyItem]) -> ()) {
+        let url = baseURL + "v1/collections"
+        let params = ["limit": limit,
+                      "offset": 0]
+        baseRequest(url, param: params) { (response) in
+            let dict = JSON(response)
+            let message = dict["message"].stringValue
+            let code = dict["code"].intValue
+            guard code == kSuccessCode else {
+                SVProgressHUD.showInfo(withStatus: message)
+                return
+            }
+            
+        }
     }
 }
 

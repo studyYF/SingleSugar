@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import BouncyLayout
+
 
 let collectionCellName = "YFSingleProductCell"
 class YFSingleProductViewController: ViewController {
@@ -17,7 +19,7 @@ class YFSingleProductViewController: ViewController {
     var items = [YFSinglePItem]()
     ///collectionView
     lazy var collectionView: UICollectionView = {
-        let layout = UICollectionViewFlowLayout()
+        let layout = BouncyLayout()
         layout.itemSize = CGSize(width: 175, height: 220)
         layout.minimumLineSpacing = 8
         layout.minimumInteritemSpacing = 8
